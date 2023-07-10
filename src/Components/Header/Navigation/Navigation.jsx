@@ -1,13 +1,14 @@
 import React from 'react';
 import Gender from './Gender/Gender';
 import Category from './Category/Category';
+import Container from '../../Layout/Container/Container';
 
-const Navigation = () => (
+const Navigation = ({ list }) => (
   <nav>
-    <div className="container">
-      <Gender />
-      <Category />
-    </div>
+    <Container>
+      <Gender list={list} />
+      <Category list={list} />
+    </Container>
   </nav>
 );
 
