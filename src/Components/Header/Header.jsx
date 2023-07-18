@@ -1,11 +1,11 @@
 import Top from "./Top/Top";
 import Navigation from "./Navigation/Navigation";
 
-const Header = ({ list }) => (
+const Header = () => (
   <header>
     <Top />
-    <Navigation list={list} />
+    <Navigation />
   </header>
-)
+);
 
 export default Header;
