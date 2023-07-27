@@ -1,8 +1,9 @@
 import Top from "./Top/Top";
 import Navigation from "./Navigation/Navigation";
+import style from "./Header.module.scss";
 
 const Header = () => (
-  <header>
+  <header className={style.header}>
     <Top />
     <Navigation />
   </header>
